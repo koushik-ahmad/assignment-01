@@ -35,6 +35,7 @@
     font-weight: 600;
     line-height: 20px;
     opacity: 0.8;
+    cursor: pointer;
 }
 
 /* Nav styles */
@@ -46,7 +47,7 @@
 }
 
 /* hero section */
-#hero {
+.hero {
     height: 652px;
     background-image: url("../assets/Hero-bg.png");
     background-size: cover;
@@ -98,12 +99,20 @@
     font-size: 15px;
     font-weight: 600;
     line-height: 20px;
+    cursor: pointer;
+}
+
+.contact-link {
+    text-decoration: none;
+    background-color: rgb(13, 19, 33);
+    color: white;
 }
 
 /* web section */
 .web-background {
-    padding: 80px;
-    margin: 30px 150px;
+    width: 1120px;
+    margin: 0 auto;
+    padding: 70px 60px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
 }
@@ -261,4 +270,97 @@
     border-radius: 16px;
     background: rgb(255, 255, 255);
     padding: 30px 0px;
+}
+
+/* support section */
+.support-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 120px;
+}
+
+.support {
+    width: 1120px;
+    height: 313px;
+    background-image: linear-gradient(0deg,
+            rgb(16, 16, 16) -19.5%,
+            rgba(16, 16, 16, 0) 100%),
+        url("../assets/handshake.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    padding: 50px;
+    border-radius: 16px;
+}
+
+.support-title {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.support-description {
+    color: rgb(255, 255, 255);
+    width: 852px;
+    margin: 0 auto;
+    padding: 30px 0px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.input-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.input-section {
+    width: 480px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10;
+    padding: 15px 20px 15px 20px;
+    border: 2px solid rgb(13, 19, 33);
+    border-radius: 5px;
+}
+
+.btn-input {
+    background: rgb(255, 255, 255);
+    box-sizing: border-box;
+    border: 2px solid rgb(13, 19, 33);
+    border-radius: 5px;
+    padding: 15px 20px 15px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+/* footer section */
+.footer-section {
+    margin: 0;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 150px;
+    background: rgba(13, 19, 33, 0.03);
 }
